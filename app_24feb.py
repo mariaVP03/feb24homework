@@ -5,10 +5,10 @@ import streamlit as st
 with open('classifier.pkl', 'rb') as rf_file:
     rf_model = pickle.load(rf_file)
 
-with open('classifier_svm.pkl', 'rb') as svm_file:
+with open('svm.pkl', 'rb') as svm_file:
     svm_model = pickle.load(svm_file)
 
-with open('classifier_knn.pkl', 'rb') as knn_file:
+with open('knn.pkl', 'rb') as knn_file:
     knn_model = pickle.load(knn_file)
 
 # Function to get the selected model
